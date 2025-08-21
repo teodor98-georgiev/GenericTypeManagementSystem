@@ -13,7 +13,7 @@ This exercise demonstrates advanced Java concepts including Generics, Collection
 ## System Architecture
 Core Interface
 Identifiable<K>
-javapublic interface Identifiable<K> {
+public interface Identifiable<K> {
     K getId();
     String getDisplayName();
 }
@@ -169,9 +169,12 @@ Range operations with equal start/end values
 
 ### Collection Strategy
 
-List: For ordered access and iteration
-Set: For uniqueness and automatic sorting
-Map: For fast key-based lookup
+List: For ordered access and iteration.
+
+Set: For uniqueness and automatic sorting.
+
+Map: For fast key-based lookup.
+
 
 ### Type Safety
 
