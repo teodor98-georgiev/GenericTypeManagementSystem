@@ -136,10 +136,14 @@ Entity Classes Must Implement
 
 ## Testing Strategy
 Create Three Managers
-EntityManager<Student, Integer> studentManager;
-EntityManager<Employee, String> employeeManager;  
-EntityManager<Product, Long> productManager;
-Test Each Manager With addition of 5 entities with varied data
+
+ManagerClass <Student, Integer> studentManager;
+
+ManagerClass<Employee, String> employeeManager;  
+
+ManagerClass<Product, Long> productManager;
+
+Each Manager has been tested with 5 entities with varied data
 
 ## Natural sorting demonstration
 ### Name-based sorting using generic comparator
